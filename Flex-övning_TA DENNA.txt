@@ -1,0 +1,42 @@
+Målet:
+Skapa en layout med en flex-container som innehåller fyra flex-items. Layouten ska ha följande specifikationer:
+
+1. Flex-container ska ha en kolumnlayout (items staplade vertikalt).
+2. Det andra flex-itemet ska ta upp dubbelt så mycket utrymme som de övriga items.
+3. Det tredje flex-itemet ska vara centrerat horisontellt och vertikalt.
+4. Använd flex-egenskaper för att hantera höjden på containern.
+
+Instruktioner:
+1. **HTML-struktur**: Skapa en HTML-fil med en flex-container och fyra flex-items.
+2. **Flex-container**:
+   - Använd `?` för att aktivera flexbox på containern.
+   - Använd `?` för att stapla items vertikalt.
+   - Använd flex-egenskaper för att hantera höjden på containern.
+3. **Flex-items**:
+   - Använd `?` för att göra det andra itemet dubbelt så stort som de andra.
+   - Använd `?` och `?` för att centrera det tredje itemet både horisontellt och vertikalt.
+
+
+
+
+
+
+#### HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Avancerad Utmaning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+        <div class="flex-item">Item 4</div>
+    </div>
+</body>
+</html>
